@@ -1,5 +1,5 @@
-#ifndef __target_H
-#define __target_H
+#ifndef __TARGET_H
+#define __TARGET_H
 
 #ifdef __cplusplus
  extern "C" {
