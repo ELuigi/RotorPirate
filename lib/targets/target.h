@@ -1,0 +1,25 @@
+#ifndef __target_H
+#define __target_H
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+#include "stm32f1xx_hal.h"
+
+/*###################### Activity led ###################################*/
+
+#define LED_PIN                         GPIO_PIN_0
+#define LED_GPIO_PORT                   GPIOC
+
+/*###################### Activity led ###################################*/
+
+#define LED_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOC_CLK_ENABLE()
+#define LED_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOC_CLK_DISABLE()
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
