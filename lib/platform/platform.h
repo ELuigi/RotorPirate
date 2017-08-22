@@ -7,7 +7,7 @@
 
 #include "ActivityLed.h"
 
-
+void InitPlatform();
 
 #ifdef __cplusplus
 }
