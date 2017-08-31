@@ -3,4 +3,14 @@
 
 int main(void) {
 
+
+InitPlatform();
+
+  while(1)
+  {
+    LED_Toggle();
+    HAL_Delay(500);
+
+  }
+
 }
