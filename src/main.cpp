@@ -1,16 +1,16 @@
-#include "stm32f1xx.h"
 #include "platform.h"
+#include "ActivityLed.h"
+//#include "ActivityLed.h"
 
 int main(void) {
 
-
-InitPlatform();
+HAL_Init();
+LED_Init();
+//InitPlatform();
 
   while(1)
   {
     LED_Toggle();
     HAL_Delay(500);
-
   }
-
 }

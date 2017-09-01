@@ -1,16 +1,10 @@
-#ifndef __PLATFORM_H
-#define __PLATFORM_H
+#ifndef PLATFORM_H
+#define PLATFORM_H
 
-#ifdef __cplusplus
- extern "C" {
-#endif
-
-#include "ActivityLed.h"
+#include <ActivityLed.h>
 
 void InitPlatform();
 
-#ifdef __cplusplus
-}
-#endif
+
 
 #endif /* __PLATFORM_H */

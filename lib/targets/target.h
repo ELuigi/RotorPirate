@@ -1,9 +1,7 @@
 #ifndef __TARGET_H
 #define __TARGET_H
 
-#ifdef __cplusplus
- extern "C" {
-#endif
+
 
 #include "stm32f1xx_hal.h"
 
@@ -18,8 +16,5 @@
 #define LED_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOC_CLK_DISABLE()
 
 
-#ifdef __cplusplus
-}
-#endif
 
 #endif
