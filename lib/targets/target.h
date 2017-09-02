@@ -15,6 +15,15 @@
 #define LED_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOC_CLK_ENABLE()
 #define LED_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOC_CLK_DISABLE()
 
+/*######################    timer     ###################################*/
 
+#define timer1 TIM1
+#define timer2 TIM2
+#define timer3 TIM3
+#define timer4 TIM4
 
+#define timer1Chanel 1
+#define timer2Chanel 1
+#define timer3Chanel 3
+#define timer4Chanel 1
 #endif
