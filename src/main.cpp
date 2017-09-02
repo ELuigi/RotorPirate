@@ -1,16 +1,15 @@
-#include "platform.h"
-#include "ActivityLed.h"
-//#include "ActivityLed.h"
+
+#include "Platform.h"
+
+void InitPlatform();
+void PlatformActivity();
 
 int main(void) {
 
-HAL_Init();
-LED_Init();
-//InitPlatform();
+InitPlatform();
 
   while(1)
   {
-    LED_Toggle();
-    HAL_Delay(500);
+    PlatformActivity();
   }
 }

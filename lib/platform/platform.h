@@ -1,9 +1,11 @@
 #ifndef PLATFORM_H
 #define PLATFORM_H
 
-#include <ActivityLed.h>
+#include "ActivityLed.h"
 
-void InitPlatform();
+
+  void InitPlatform();
+  void PlatformActivity();
 
 
 

@@ -8,7 +8,6 @@
 #include <ActivityLed.h>
 
 
-//GPIO_TypeDef* LED__PORT = {LED_GPIO_PORT};
 
 void LED_Init()
 {
