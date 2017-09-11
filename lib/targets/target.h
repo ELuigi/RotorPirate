@@ -22,7 +22,10 @@ TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim4;
 
-//TIM_OC_InitTypeDef OcConfig;
+TIM_OC_InitTypeDef OcConfigTim1;
+TIM_OC_InitTypeDef OcConfigTim2;
+TIM_OC_InitTypeDef OcConfigTim3;
+TIM_OC_InitTypeDef OcConfigTim4;
 
 
 #endif
